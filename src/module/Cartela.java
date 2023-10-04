@@ -19,26 +19,6 @@ public class Cartela {
 
             for (int j = 0; j < 5; j++) {
 
-//                int[] range = new int[2];
-//
-//                if(j == 0){
-//                    range[0] = 1;
-//                    range[1] = 16;
-//                }else if(j == 1){
-//                    range[0] = 16;
-//                    range[1] = 31;
-//                }else if(j == 2){
-//                    range[0] = 31;
-//                    range[1] = 46;
-//                } else if(j == 3){
-//                    range[0] = 46;
-//                    range[1] = 61;
-//                } else if(j == 4){
-//                    range[0] = 61;
-//                    range[1] = 76;
-//                }
-
-
                 if(i == 2 && i == j){
                     matriz[i][j] = -1;
                 }else {
@@ -71,12 +51,6 @@ public class Cartela {
             }
             jaJogado = verificarNumero(numero);
         }
-
-//        for (int numeroJaJogado : numerosJaJogado) {
-//            while (numero == numeroJaJogado ){
-//                numero = random.nextInt(range1, range2);
-//            }
-//        }
 
         numerosJaJogado.add(numero);
 
